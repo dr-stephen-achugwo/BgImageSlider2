@@ -1,0 +1,41 @@
+.btn-left, 
+.btn-right {
+    min-width: 60px;
+	min-height: 17px;
+    font-size: 18px;
+    padding: 13px;
+    border: 1px solid #fd6802;
+	border-radius: 7px;
+    color: #fd6802;
+	background-color: rgba(255,255,255,1.00);
+    display: block;
+	cursor: pointer;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.30);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.30);
+    z-index: 111;
+    -webkit-transition: all 0.517s ease-in-out;
+    -moz-transition: all 0.517s ease-in-out;
+    -ms-transition: all 0.517s ease-in-out;
+    -o-transition: all 0.517s ease-in-out;
+    transition: all 0.517s ease-in-out;
+}
+
+
+.btn-left {
+	float: left;
+}
+
+
+.btn-right {
+	float: right;
+}
+
+
+.btn-left:hover,
+.btn-right:hover {
+    border-color: #fd6802;
+    color: rgba(255, 255, 255, 1.00);
+	background: #fd6802;
+}
+
